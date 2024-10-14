@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Added for absolute positioning */
+        }
+        .top-image {
+            text-align: center;
+            margin-bottom: 10px; /* Adjust the spacing as necessary */
+        }
+        .top-image img {
+            width: 100%; /* Adjust as needed */
+            height: auto;
+        }
+        header, footer {
+            background: #ff7f50; /* Bright Coral color */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative; /* For positioning the logo container */
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Lobster', cursive; /* Less curly header font */
+        }
+        main {
+            margin: 20px 0;
+        }
+        .contact-link, .social-link {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .contact-link a, .social-link a {
+            color: #0073e6;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        .contact-link a:hover, .social-link a:hover {
+            text-decoration: underline;
+        }
+        .intro {
+            margin: 20px 0;
+            font-family: 'Comic Sans MS', cursive; /* Cartoonish font for About Us */
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .grid-container img {
+            width: 100%;
+            aspect-ratio: 1 / 1; /* Ensures all images have a square aspect ratio */
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            .contact-link a, .social-link a {
+                font-size: 1em;
+            }
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-image">
+            <img src="fbpic.png" alt="Top Image">
+        </div>
+        <header>
+            <h1>Live Thai-Rolled Ice Cream For Events</h1>
+        </header>
+        <main>
+            <div class="intro">
+                <h2>About Us</h2>
+                <p>Welcome to ScoopMischief! We bring the vibrant experience of Thai-rolled ice cream live to your events. Watch in delight as our skilled artisans craft your ice cream fresh on the spot, with a wide range of flavors and toppings to choose from. But that's not all—we're also excited to introduce our new healthier choice: Yogurt Cubes! These delicious, nutritious treats are perfect for those looking for a lighter option without sacrificing flavor. Contact us to make your next event truly unforgettable!</p>
+            </div>
+            <div class="grid-container">
+                <img src="SMWP - Rolled Ice Cream 1.jpg" alt="Company Image 1">
+                <img src="SMWP - Rolled Ice Cream 2.jpg" alt="Company Image 2">
+                <img src="SMWP - Rolled Ice Cream 3.jpg" alt="Company Image 3">
+                <img src="SMWP - Rolled Ice Cream 4.jpg" alt="Company Image 4">
+                <img src="SMWP - Rolled Ice Cream 5.jpg" alt="Company Image 5">
+                <img src="SMWP - Yogurt Cube 3.jpg" alt="Company Image 6">
+            </div>
+            <div class="contact-link">
+                <a href="https://wa.me/92389052">Contact us on WhatsApp</a>
+                <a href="https://www.instagram.com/scoopmischief?igsh=dTJ0Y25ocG9qc21w" target="_blank">Follow us on Instagram</a>
+            </div>
+        </main>
+        <footer>
+            <p>Copy right ©2024</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
